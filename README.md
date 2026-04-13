@@ -132,5 +132,8 @@ The pipeline removes:
 - trains final KMeans with 4 clusters
 - maps raw clusters into business labels using cluster profile logic
 
+## 📊 Dashboard Preview
+![Customer Intelligence Dashboard](Dashboard/Dashboard.jpg)
+
 
 
