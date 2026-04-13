@@ -161,38 +161,5 @@ The pipeline removes:
 - trains final KMeans with 4 clusters
 - maps raw clusters into business labels using cluster profile logic
 
-### Churn-risk logic
 
-This project uses a transparent heuristic instead of a supervised churn classifier because the dataset does not provide an explicit churn label.
 
-A customer is flagged as churn risk when:
-
-- recency is high, and
-- frequency is low or spend is low, or
-- the customer falls into the inactive segment
-
-## How to customize
-
-You can edit `src/customer_intelligence/config.py` to change:
-
-- number of clusters
-- feature list
-- outlier clipping bounds
-- k search range
-- top customer count
-
-## Power BI usage
-
-Use `data/processed/customer_segments.csv` as the dashboard source.
-
-Recommended visuals:
-
-- KPI cards for revenue, customers, churn risk, average revenue
-- customers by segment
-- revenue by segment
-- top customers table
-- recency vs revenue scatter
-
-## Resume-ready project pitch
-
-Built an end-to-end customer intelligence pipeline that transforms raw retail transactions into customer segments, churn-risk flags, and retention actions using Python, scikit-learn, and business-focused analytics artifacts.
