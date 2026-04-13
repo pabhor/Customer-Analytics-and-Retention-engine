@@ -18,35 +18,6 @@ Production-style Python project for retail customer segmentation, churn-risk ide
 - Low Value Customers
 - Inactive Customers
 
-## Project structure
-
-```text
-customer_intelligence_project/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── models/
-├── outputs/
-│   ├── figures/
-│   └── reports/
-├── src/
-│   └── customer_intelligence/
-│       ├── __init__.py
-│       ├── business_rules.py
-│       ├── config.py
-│       ├── data.py
-│       ├── features.py
-│       ├── pipeline.py
-│       ├── preprocessing.py
-│       ├── reporting.py
-│       ├── segmentation.py
-│       └── utils.py
-├── .gitignore
-├── main.py
-├── README.md
-└── requirements.txt
-```
-
 ## Setup in VS Code
 
 ### 1. Create virtual environment
