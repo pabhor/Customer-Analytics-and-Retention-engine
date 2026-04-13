@@ -1,0 +1,5 @@
+Segment,Customers,AvgRecency,AvgFrequency,AvgMonetary,TotalRevenue,ChurnRiskCustomers,RevenueSharePct
+VIP Customers,624,20.07,14.99,9340.43,5828426.62,0,65.58
+Loyal Customers,1468,45.17,4.02,1456.06,2137500.31,0,24.05
+Low Value Customers,1301,59.43,1.5,351.46,457255.69,49,5.15
+Inactive Customers,945,259.56,1.41,491.03,464026.27,945,5.22
